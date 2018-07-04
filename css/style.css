@@ -1,23 +1,114 @@
-#page　{　
-  width: 100%;
-  border-top: 4px solid #0055a9;
+#page {　
+  width: 980px;
+  margin: 0 auto;
+}
+
+/*----------ヘッダー ----------*/
+/*#pageTop {
+  width: 980px;*/
+
+}
+
+#pageTop img{
+  width: 270px;
+  float: left;
+}
+
+#pageTop img:after{
+  content:"";
+  clear: both;
   display: block;
 }
 
-#pageTop {
+#siteTitle {
   width: 980px;
+  height: 60px;
 }
 
-#topside {
-  width: 300px;
-  height: 50px;
+#topSide {
+  width: 400px;
+  height: 60px;
+  text-align: right;
+  float: right;
+}
+
+#language :after{
+  content:"";
+  clear: both;
+  display: block;
 }
 
 #language ul {
   margin: 0;
-  /*padding: 0;*/
 }
 
 #language ul li{
   list-style: none;
+  float: left;
+  margin: 0px  20px 10px  0px;
+}
+
+/*グローバルナビ*/
+#pageTop .globalNavi ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+#pageTop .globalNavi ul:after {
+  content:"";
+  clear: both;
+  display: block;
+}
+
+#pageTop .globalNavi ul li {
+  list-style: none;
+  font-size: 15px;
+  font-weight: bold;
+  width: 120px;
+  float: left;
+  text-align: center;
+}
+
+/*パンくずナビ*/
+#topicPath {
+  background-color: #eee;
+  width: 100%;
+  padding: 13px 0px;
+  margin-bottom: 26px;
+}
+
+#topicPath .navpoint {
+  width: 980px;
+}
+
+#topicPath .nav {
+  margin:0px;
+  font-size: 12px;
+  width: 200px;
+}
+
+#topicPath .nav img {
+  margin-right: 5px;
+}
+
+/*---------- ボディー　----------*/
+#pageBody {
+  width: 980px;
+  padding: 13px 0px 26px 0px;
+}
+
+#pageBody .bodyTop{
+  width: 700px;
+  margin:
+}
+
+#pageBody .bodyTop h1 {
+  margin: 0px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#pageBody .bodyTop p {
+  margin: 0px;
+  font-size: 18px;
 }
