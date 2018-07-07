@@ -40,6 +40,7 @@
 
 #language ul {
   margin: 0;
+  text-align: right;
 }
 
 #language ul li{
@@ -92,14 +93,16 @@
 }
 
 /*---------- ボディー　----------*/
+/*トップ*/
 #pageBody {
   width: 980px;
-  padding: 13px 0px 26px 0px;
+
 }
 
 #pageBody .bodyTop{
   width: 700px;
-  margin:
+  padding: 13px 0px 26px 0px;
+  border-bottom: solid 3px #0000CC;
 }
 
 #pageBody .bodyTop h1 {
@@ -111,4 +114,18 @@
 #pageBody .bodyTop p {
   margin: 0px;
   font-size: 18px;
+}
+
+/*メイン*/
+#bodyMain {
+  width: 980px;
+}
+
+#bodyMain .bodyCenter {
+  width: 700px;
+  padding-top: 30px;
+}
+
+#bodyMain .bodyCenter table {
+  font-size: 13px;
 }
