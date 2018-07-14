@@ -188,18 +188,26 @@
   padding: 8px 5px 8px 35px;
 }
 
-/*ムービー*/
-#navMovi {
+/*ムービー,パンフレット*/
+#navMovi,
+#navBrochure{
   width: 200px;
   margin: 0 auto;
+  margin-bottom: 15px;
   padding: 20px;
   border: 1px solid #eeeeee;
 }
 
-#navMovi h4 {
+#navMovi h4,
+#navBrochure h4{
   margin-bottom: 16px;
 }
 
-#navMovi p{
+#navMovi p,
+#navBrochure p{
   font-size: 13px;
+}
+
+#navBrochure .pamph {
+  text-align: center;
 }
