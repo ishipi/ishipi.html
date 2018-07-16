@@ -4,13 +4,14 @@
 }
 
 #page {
-  width: 980px;
-  margin: 0 auto;
+  /*width: 980px;*/
+
 }
 
 /*----------ヘッダー ----------*/
 #pageTop {
   width: 980px;
+  margin: 0 auto;
 }
 
 #pageTop img{
@@ -84,6 +85,7 @@
 
 #topicPath .navpoint {
   width: 980px;
+  margin: 0 auto;
 }
 
 #topicPath .nav {
@@ -100,7 +102,8 @@
 /*トップ*/
 #pageBody {
   width: 980px;
-
+  height: 1230px;
+  margin: 0 auto;
 }
 
 #pageBody .bodyTop{
@@ -123,7 +126,6 @@
 /*メイン*/
 #bodyMain {
   width: 980px;
-  /*height: 1070px;*/
 }
 
 #bodyMain :after {
@@ -210,4 +212,10 @@
 
 #navBrochure .pamph {
   text-align: center;
+}
+/*---------- ページ内リンク　----------*/
+#innerRink {
+  width: 980px;
+  margin: 0 auto;
+  text-align: right;
 }
