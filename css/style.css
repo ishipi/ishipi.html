@@ -220,6 +220,7 @@
   text-align: right;
 }
 
+/*---------- フッター　----------*/
 #pageFoot {
   background-color: #eaeaea;
 }
@@ -233,6 +234,7 @@
 
 #navBox h3 {
   font-size: 16px;
+  padding-bottom: 10px;
 }
 
 #navBox h4,
@@ -245,41 +247,51 @@
   margin-bottom: 2.6px;
 }
 
-#navBox .infoList {
+#infoList {
   width: 280px;
   margin-right: 50px;
   padding-bottom: 40px;
+  float: left;
 }
 
-#navBox .infoList:after{
+#infoList:after{
   content:"";
   clear: both;
   display: block;
 }
 
-#navBox .infoList h3 {
-  padding-bottom: 10px;
-}
-
-#navBox .mgmtList,
-#navBox .brochureList {
+#infoList .mgmtList,
+#infoList .guideList {
   width: 123px;
 }
 
-#navBox .mgmtList h4,
-#navBox .brochureList h4 {
+#infoList .mgmtList h4,
+#infoList .guideList h4 {
   padding-bottom: 5px;
   color: #777777;
 }
 
-#navBox .mgmtList {
+#infoList .mgmtList {
   float: left;
 }
 
-#navBox .brochureList {
+#infoList .guideList {
   float: right;
 }
 
-#navBox .partner {
+#infoList .partner {
   margin-top: 20px;
+}
+
+#bizList,
+#opinionList {
+  width: 161.6px;
+  height: 395px;
+  margin-right: 50px;
+  padding-bottom: 40px;
+  float: left;
+}
+
+#opinionList ul {
+  margin-bottom: 20px;
 }
