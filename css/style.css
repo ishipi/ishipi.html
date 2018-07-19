@@ -227,7 +227,7 @@
 
 #navBox {
   width: 980px;
-  height: 800px;
+  height: 850px;
   margin: 0 auto;
   padding-top: 40px;
 }
@@ -284,9 +284,18 @@
 }
 
 #bizList,
-#opinionList {
+#opinionList,
+#newsList {
   width: 161.6px;
   height: 395px;
+}
+#bizList,
+#opinionList,
+#newsList,
+#susList,
+#irList,
+#adoptList,
+#evtList {
   margin-right: 50px;
   padding-bottom: 40px;
   float: left;
@@ -294,4 +303,20 @@
 
 #opinionList ul {
   margin-bottom: 20px;
+}
+
+#susList {
+  width: 200px;
+}
+
+#irList {
+ width: 195px;
+}
+
+#adoptList {
+ width: 150px;
+}
+
+#evtList {
+ width: 177px;
 }
