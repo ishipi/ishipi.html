@@ -221,8 +221,10 @@
 }
 
 /*---------- フッター　----------*/
-#pageFoot {
+/*フッターリスト*/
+#footerList {
   background-color: #eaeaea;
+  padding-bottom: 40px;
 }
 
 #navBox {
@@ -238,7 +240,9 @@
 }
 
 #navBox h4,
-#navBox ul li {
+#navBox ul li,
+#footerLink ul li,
+#footerInfo ul li {
   font-size: 13px;
   list-style: none;
 }
@@ -319,4 +323,33 @@
 
 #evtList {
  width: 177px;
+}
+
+/*SNS*/
+#footerLink,
+#footerInfo,
+#copy {
+  width: 980px;
+  margin: 0 auto;
+}
+
+#footerLink ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+/*確認事項*/
+#footerInfo {
+  padding: 13px 0px;
+}
+
+#footerInfo ul li {
+  display: inline-block;
+  border-right: solid 2px;
+  padding: 0px 8px;
+}
+
+#copy {
+  font-size: 13px;
+  padding: 6.5px 0px 26px 0px;
 }
