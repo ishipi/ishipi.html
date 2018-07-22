@@ -60,6 +60,11 @@
   font-size: 13px;
 }
 
+#language tr th a{
+  color: #333;
+  text-decoration: none;
+}
+
 /*グローバルナビ*/
 #pageTop .globalNavi ul {
   margin: 0px;
@@ -79,6 +84,11 @@
   width: 120px;
   float: left;
   text-align: center;
+}
+
+#pageTop .globalNavi ul li a{
+  color: #333;
+  text-decoration: none;
 }
 
 /*パンくずナビ*/
@@ -232,6 +242,7 @@
 #footerList {
   background-color: #eaeaea;
   padding-bottom: 40px;
+  margin-top: -32px;
 }
 
 #navBox {
@@ -347,7 +358,9 @@
 
 #footerLink ul li a{
   color: #333;
-  }
+  text-decoration: none;
+}
+
 /*確認事項*/
 #footerInfo {
   padding: 13px 0px;
@@ -355,12 +368,13 @@
 
 #footerInfo ul li {
   display: inline-block;
-  border-right: solid 2px;
+  border-right: solid 1px;
   padding: 0px 8px;
 }
 
 #footerInfo ul li a {
   color: #606060;
+  text-decoration: none;
 }
 
 #copy {
