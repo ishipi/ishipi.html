@@ -4,7 +4,7 @@
 }
 
 #page {
-  /*width: 980px;*/
+  border-top: solid 5px #0000CC;
 
 }
 
@@ -12,6 +12,7 @@
 #pageTop {
   width: 980px;
   margin: 0 auto;
+  padding-top: 15px;
 }
 
 #pageTop img{
@@ -52,6 +53,11 @@
   list-style: none;
   float: right;
   margin: 0px  20px 10px  0px;
+  font-size: 12px;
+}
+
+#language tr th {
+  font-size: 13px;
 }
 
 /*グローバルナビ*/
@@ -88,13 +94,14 @@
   margin: 0 auto;
 }
 
-#topicPath .nav {
-  margin:0px;
-  font-size: 12px;
-  width: 200px;
+#topicPath .navpoint ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 11px;
+  padding-right: 5px;
 }
 
-#topicPath .nav img {
+#topicPath .navpoint img {
   margin-right: 5px;
 }
 
