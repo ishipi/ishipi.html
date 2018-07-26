@@ -4,7 +4,7 @@
 }
 
 #page {
-  border-top: solid 5px #0000CC;
+  border-top: solid 4px #0055a9;
 
 }
 
@@ -38,6 +38,22 @@
   float: right;
 }
 
+#topSide input {
+  width: 158px;
+  height: 15px;
+}
+
+#topSide a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #606060;
+}
+
+#topSide .investigate {
+  height: 23px;
+  border: 1px solid #cecece;
+}
+
 #language :after{
   content:"";
   clear: both;
@@ -54,6 +70,14 @@
   float: right;
   margin: 0px  20px 10px  0px;
   font-size: 12px;
+}
+
+#language ul li.AL{
+  color:#606060;
+}
+
+#language ul li.ja{
+  font-weight: bold;
 }
 
 #language tr th {
@@ -91,6 +115,10 @@
   text-decoration: none;
 }
 
+#pageTop .globalNavi a:hover{
+  color: rgb(0, 91, 172);
+}
+
 /*パンくずナビ*/
 #topicPath {
   background-color: #eee;
@@ -102,6 +130,7 @@
 #topicPath .navpoint {
   width: 980px;
   margin: 0 auto;
+
 }
 
 #topicPath .navpoint ul li {
@@ -109,6 +138,15 @@
   display: inline-block;
   font-size: 11px;
   padding-right: 5px;
+}
+
+#topicPath .navpoint ul li a{
+  color: #333;
+  text-decoration: none;
+}
+
+#topicPath .navpoint a:hover{
+  text-decoration: underline;
 }
 
 #topicPath .navpoint img {
@@ -126,7 +164,7 @@
 #pageBody .bodyTop{
   width: 700px;
   padding: 13px 0px 26px 0px;
-  border-bottom: solid 3px #0000CC;
+  border-bottom: solid 3px #0055a9;
 }
 
 #pageBody .bodyTop h1 {
@@ -207,6 +245,20 @@
   padding: 8px 5px 8px 35px;
 }
 
+#navList .localNavi a {
+  text-decoration:none;
+  color: rgb(51, 51, 51);
+}
+
+#navList .localNavi a:hover{
+  text-decoration: underline;
+}
+
+#navList .localNavi li:hover,
+#navList .localNavi h4:hover{
+  background-color: #ddf3fe;
+}
+
 /*ムービー,パンフレット*/
 #navMovi,
 #navBrochure{
@@ -225,6 +277,22 @@
 #navMovi p,
 #navBrochure p{
   font-size: 13px;
+}
+
+#navMovi {
+  position: relative;
+}
+
+#navMovi a{
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left: 0;
+  text-indent: 100%; /*テキスト非表示*/
+  white-space: nowrap; /*テキスト非表示*/
+  overflow: hidden; /*テキスト非表示*/
 }
 
 #navBrochure .pamph {
@@ -255,6 +323,15 @@
 #navBox h3 {
   font-size: 16px;
   padding-bottom: 10px;
+}
+
+#navBox a{
+  text-decoration:none;
+  color: rgb(51, 51, 51);
+}
+
+#navBox a:hover {
+  text-decoration: underline;
 }
 
 #navBox h4,
@@ -306,8 +383,7 @@
 }
 
 #bizList,
-#opinionList,
-#newsList {
+#opinionList {
   width: 161.6px;
   height: 395px;
 }
@@ -325,6 +401,16 @@
 
 #opinionList ul {
   margin-bottom: 20px;
+}
+
+#newsList {
+  width: 161.6px;
+  height: 420px;
+  margin-top: -25px;
+}
+
+#newsList h3 {
+  color: #777777;
 }
 
 #susList {
@@ -361,6 +447,10 @@
   text-decoration: none;
 }
 
+#footerLink a:hover {
+  text-decoration: underline;
+}
+
 /*確認事項*/
 #footerInfo {
   padding: 13px 0px;
@@ -370,11 +460,17 @@
   display: inline-block;
   border-right: solid 1px;
   padding: 0px 8px;
+  height: 13px;
+  line-height: 1.1;
 }
 
 #footerInfo ul li a {
   color: #606060;
   text-decoration: none;
+}
+
+#footerInfo a:hover {
+  text-decoration: underline;
 }
 
 #copy {
