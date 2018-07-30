@@ -16,7 +16,7 @@
 }
 
 #pageTop img{
-  width: 270px;
+  width: 264px;
   float: left;
 }
 
@@ -28,12 +28,12 @@
 
 #siteTitle {
   width: 980px;
-  height: 60px;
+  height: 50px;
 }
 
 #topSide {
   width: 400px;
-  height: 60px;
+  height: 58px;
   /*text-align: right;*/
   float: right;
 }
@@ -83,6 +83,7 @@ input[type="submit"] {
   width: 22px;
   height: 22px;
   background-image: url(../images/icon_searchBtn.png);
+  cursor: pointer;
 }
 
 #language :after{
@@ -111,19 +112,9 @@ input[type="submit"] {
   font-weight: bold;
 }
 
-#language tr th {
-  font-size: 13px;
-}
-
-#language tr th a{
-  color: #333;
-  text-decoration: none;
-}
-
 /*グローバルナビ*/
-#pageTop .globalNavi ul {
-  margin: 0px;
-  padding: 0px;
+#pageTop .globalNavi ul{
+  margin-top: -10px;
 }
 
 #pageTop .globalNavi ul:after {
@@ -136,7 +127,7 @@ input[type="submit"] {
   list-style: none;
   font-size: 15px;
   font-weight: bold;
-  width: 120px;
+  padding: 16px 15px 15px;
   float: left;
   text-align: center;
 }
