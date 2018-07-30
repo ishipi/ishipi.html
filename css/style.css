@@ -82,7 +82,7 @@ input[type="submit"] {
 #topSide input.submit {
   width: 22px;
   height: 22px;
-  background-image: url(../images/icon_searchBtn.png);
+  background-image: url(../images/icon_searchBotn.png);
   cursor: pointer;
 }
 
